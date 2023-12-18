@@ -5,7 +5,11 @@ This repo contains a simple implementation of finetuning a pre-trained model for
 
 Two models are trained: one trained on all the classes in MultiNERD (ner_all) and one only trained only on the following five (ner_five): PERSON(PER), ORGANIZATION(ORG), LOCATION(LOC), DISEASES(DIS), ANIMAL(ANIM).
 
-The majority of the code in this repo is copied directly from  [Tirendaz Academy's "NER with HuggingFace](https://www.kaggle.com/code/tirendazacademy/ner-with-huggingface) tutorial. The code depends on the HuggingFace to source both the dataset ([MultiNERD](https://huggingface.co/datasets/Babelscape/multinerd)) and the pre-trained model used ([distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased)), thus an account is required to run it.
+The majority of the code in this repo is copied directly from  [Tirendaz Academy's "NER with HuggingFace](https://www.kaggle.com/code/tirendazacademy/ner-with-huggingface) tutorial.
+
+## How to use
+
+One need only run the ner_finetuning.ipynb notebook to get the results. The code depends on the HuggingFace to source both the dataset ([MultiNERD](https://huggingface.co/datasets/Babelscape/multinerd)) and the pre-trained model used ([distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased)), thus an account is required to run it, and an access token will be requested in cell #12.
 
 ## Training parameters
 
